@@ -1,0 +1,37 @@
+[
+    {
+        "default_value": "John",
+        "validation": "^[a-zA-Z]+$",
+        "label": "Name",
+        "type": "text",
+        "index": 0
+    },
+    {
+        "default_value": "example@example.com",
+        "label": "Email",
+        "type": "text",
+        "validation": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+        "index": 1
+    },
+    {
+        "default_value": 5,
+        "label": "Age",
+        "min_value": 0,
+        "max_value": 120,
+        "type": "number",
+        "index": 2
+    },
+    {
+        "default_value": "Male",
+        "label": "Gender",
+        "type": "dropdown",
+        "options": ["Male", "Female"],
+        "index": 3
+    },
+    {
+        "default_value": "I am...",
+        "label": "About you",
+        "type": "longtext",
+        "index": 4
+    }
+]
